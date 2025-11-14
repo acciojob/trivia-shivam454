@@ -1,16 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz Question</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f3f4f6;
+        padding: 20px;
+      }
+      .question-box {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 700px;
+        margin: auto;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      }
+      blockquote {
+        max-width: 600px;
+        margin: 10px;
+        padding: 15px;
+        border-left: 8px solid green;
+        background-color: #f8fffe;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="question-box">
+      <h2>What is the capital of India?</h2>
+      <form>
+        <label>
+          <input type="radio" name="capital" value="new-delhi"> New Delhi
+        </label><br />
+        <label>
+          <input type="radio" name="capital" value="mumbai"> Mumbai
+        </label>
+      </form>
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+      <blockquote>
+      New Delhi is the capital of India and an administrative district of NCT Delhi.
+      </blockquote>
+    </div>
+  </body>
 </html>
